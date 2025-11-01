@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.illustration img {
+    width: 480px;
+    max-width: 100%;
+}
+
+.registrasi-box {
+    background-color: #2f4266;
+    padding: 40px;
+    border-radius: 12px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.registrasi-box h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.registrasi-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.registrasi-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #2f4266;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.registrasi-box button:hover {
+    background-color: #dce3ee;
+}
+
+.login-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #2f4266;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #dce3ee;
+}

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #2f4163;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+.sidebar .logo {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 40px;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu li {
+    margin-bottom: 18px;
+}
+
+.sidebar .menu a {
+    color: #cfd8e3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sidebar .menu a:hover,
+.sidebar .menu a.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.logout {
+    margin-top: auto;
+    text-align: center;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-logout:hover {
+    background-color: #b02a37;
+}
+
+.main-content {
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 360px;
+}
+
+.main-content h2 {
+    color: #2f4163;
+}
+
+.schedule-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.schedule-form input,
+.schedule-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.schedule-form button {
+    background: #2f4163;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.schedule-form button:hover {
+    background: #2f4163;
+}

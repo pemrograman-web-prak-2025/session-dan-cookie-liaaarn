@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    color: #2f4266;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #2f4266;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+.sidebar .logo {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 40px;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .menu li {
+    margin-bottom: 18px;
+}
+
+.sidebar .menu a {
+    color: #cfd8e3;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.sidebar .menu a:hover,
+.sidebar .menu a.active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.logout {
+    margin-top: auto;
+    text-align: center;
+}
+
+.btn-logout {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-logout:hover {
+    background-color: #b02a37;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.no-history {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #2f4266;
+    color: white;
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f4f7;
+}
+
+.table-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.table thead {
+    position: sticky;
+    top: 0;
+    background-color: #2f4266;
+    color: white;
+    z-index: 1;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #b02a37;
+}

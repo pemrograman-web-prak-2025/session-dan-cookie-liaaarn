@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.illustration img {
+    width: 480px;
+    max-width: 100%;
+}
+
+.login-box {
+    background-color: #2f4266;
+    padding: 40px;
+    border-radius: 12px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #2f4266;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.login-box button:hover {
+    background-color: #dce3ee;
+}
+
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #2f4266;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #dce3ee;
+}
+
+.remember-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.remember-me input[type="checkbox"] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-appearance: checkbox;
+}
+
+.remember-me label {
+    display: inline-block;
+    line-height: 18px;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+}
